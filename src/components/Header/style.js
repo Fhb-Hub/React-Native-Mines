@@ -9,7 +9,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: 12,
-  
+
     },
     flagContainer: {
         flexDirection: 'row',

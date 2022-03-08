@@ -10,7 +10,7 @@ export default props => {
             transparent={true}>
             <View style={styles.frame}>
                 <View style={styles.container}>
-                    <Text style={styles.title}>Selecione o Nível</Text>
+                    <Text style={styles.title}>Select Level</Text>
                     <Level level='Easy' onLevelSelected={props.onLevelSelected} />
                     <Level level='Normal' onLevelSelected={props.onLevelSelected} />
                     <Level level='Hard' onLevelSelected={props.onLevelSelected} />
